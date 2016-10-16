@@ -1,0 +1,10 @@
+procedure main
+iconst 0
+dup
+iconst 1000
+swap
+igt
+if_icmple 8
+inc
+goto 1
+ret
