@@ -4,24 +4,25 @@ dup
 iconst 20000
 swap
 ilt 
-if_icmple 29
+if_icmple 30
 dup
 dup
 iconst 1
 ieq
-if_icmple 27
+ne
+if_icmple 28
 dup
 iconst 1
 and
 dup
-if_icmple 21
+if_icmple 22
 swap
 iconst 3
 imul
 inc
 swap
 ne
-if_icmple 26
+if_icmple 27
 iconst 2
 swap
 idiv
