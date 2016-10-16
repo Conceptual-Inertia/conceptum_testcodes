@@ -27,6 +27,7 @@ iconst 2
 swap
 idiv
 goto 7
+pop
 inc
 goto 1
 ret
