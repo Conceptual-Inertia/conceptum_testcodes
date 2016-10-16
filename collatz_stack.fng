@@ -1,10 +1,10 @@
 procedure main
 iconst 1
 dup
-iconst 20000
+iconst 200
 swap
 ilt 
-if_icmple 30
+if_icmple 31
 dup
 dup
 iconst 1
